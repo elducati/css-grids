@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    font-family: Sans-serif;
+    font-size: 50px;
+    display: grid;
+}
+a {
+    display: inline-block;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    width: 20%;
+}
+a:hover {
+    color: red;
+}
+.nav {
+    background-color: blue;
+}
+.one {
+   
+    background-color: purple;
+    border: 5px solid gold;
+}
+.two {
+    
+    background-color: green;
+    border: 5px solid gold;
+}   
+.three {
+    
+    background-color: aqua;
+    border: 5px solid gold;
+}
+.square {
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
+    grid-gap: 20px;
+    
+}
+
